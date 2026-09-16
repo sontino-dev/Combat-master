@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.catlean.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinMinecraftClient",
+    "MixinClientPlayerEntity"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "combatmaster",
+  "version": "${version}",
+  "name": "Combat Master",
+  "description": "Combat Master — Vanilla PvP client for 1.21.4 Fabric",
+  "authors": ["jasonmodding"],
+  "icon": "pack.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.catlean.CatleanClient"]
+  },
+  "mixins": ["catlean.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+}
